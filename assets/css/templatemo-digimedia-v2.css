@@ -2245,17 +2245,19 @@ footer p a {
 }
 
 .ton__logo{
- width: 95px !important;
- height: 95px !important;
+ width: 168px !important;
+ height: 168px !important;
  display: flex;
  justify-content: center;
  align-items: center;
  border-radius: 50%;
  background: #fff;
+ overflow: hidden;
 }
 .ton_image{
-  width: 65px !important;
-  height: 65px !important;
+  transform: translateY(-11.1px);
+  width: 120px !important;
+  height: 120px !important;
   background-image: url(../images/ton_image3.jpg);
  background-position: center center;
  background-size: contain;
